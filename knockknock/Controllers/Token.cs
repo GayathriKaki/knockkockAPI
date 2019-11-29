@@ -1,4 +1,5 @@
-﻿using KnockKnock.Service;
+﻿using System;
+using KnockKnock.Service;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -6,20 +7,19 @@ using Microsoft.AspNetCore.Mvc;
 namespace KnockKnock.Api.Controllers
 {
     [Route("api/[controller]")]
-    public class Fibonacci : Controller
+    public class Token : Controller
     {
-        public Fibonacci(IFibonacciService service)
+        public Token(ITokenService service)
         {
             Service = service;
         }
 
-        private IFibonacciService Service { get; }
+        private ITokenService Service { get; }
 
-        // GET api/values/id
         [HttpGet]
-        public long Get(string n)
+        public Guid Get()
         {
-            return Service.GetFibonacciNumberAtPosition(n);
+            return Service.GetToken();
         }
     }
 }

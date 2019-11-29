@@ -6,20 +6,20 @@ using Microsoft.AspNetCore.Mvc;
 namespace KnockKnock.Api.Controllers
 {
     [Route("api/[controller]")]
-    public class Fibonacci : Controller
+    public class ReverseWords : Controller
     {
-        public Fibonacci(IFibonacciService service)
+        public ReverseWords(IReverseWordsService service)
         {
             Service = service;
         }
 
-        private IFibonacciService Service { get; }
+        private IReverseWordsService Service { get; }
 
         // GET api/values/id
         [HttpGet]
-        public long Get(string n)
+        public string Get(string sentence)
         {
-            return Service.GetFibonacciNumberAtPosition(n);
+            return Service.ReverseWord(sentence);
         }
     }
 }
