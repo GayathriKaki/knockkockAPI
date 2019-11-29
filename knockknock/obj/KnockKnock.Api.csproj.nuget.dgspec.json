@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\knockknock\\KnockKnock.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Common\\KnockKnock.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Common\\KnockKnock.Common.csproj",
+        "projectName": "KnockKnock.Common",
+        "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Common\\KnockKnock.Common.csproj",
+        "packagesPath": "C:\\Users\\lgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "http://ic2prdtfs01:58080/tfs/ClaimsCollection/_packaging/claims/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Logic\\KnockKnock.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Logic\\KnockKnock.Logic.csproj",
+        "projectName": "KnockKnock.Logic",
+        "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Logic\\KnockKnock.Logic.csproj",
+        "packagesPath": "C:\\Users\\lgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "http://ic2prdtfs01:58080/tfs/ClaimsCollection/_packaging/claims/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Common\\KnockKnock.Common.csproj": {
+                "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Common\\KnockKnock.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Service\\KnockKnock.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Service\\KnockKnock.Service.csproj",
+        "projectName": "KnockKnock.Service",
+        "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Service\\KnockKnock.Service.csproj",
+        "packagesPath": "C:\\Users\\lgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "http://ic2prdtfs01:58080/tfs/ClaimsCollection/_packaging/claims/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Logic\\KnockKnock.Logic.csproj": {
+                "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Logic\\KnockKnock.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\knockknock\\KnockKnock.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\knockknock\\KnockKnock.Api.csproj",
+        "projectName": "KnockKnock.Api",
+        "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\knockknock\\KnockKnock.Api.csproj",
+        "packagesPath": "C:\\Users\\lgo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\knockknock\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "http://ic2prdtfs01:58080/tfs/ClaimsCollection/_packaging/claims/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Service\\KnockKnock.Service.csproj": {
+                "projectPath": "C:\\Users\\lgo\\Desktop\\Gayathri\\projects\\knockknock-master-V1\\knockknock-master\\KnockKnock.Service\\KnockKnock.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
